@@ -1,0 +1,188 @@
+dn: dc=wheels
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: wheels-brazil
+dc: wheels
+structuralObjectClass: organization
+entryUUID: 6727c9d4-0c73-103f-9965-83322e022803
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921144159Z
+entryCSN: 20240921144159.920193Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921144159Z
+
+dn: ou=People,dc=wheels
+objectClass: organizationalUnit
+ou: People
+structuralObjectClass: organizationalUnit
+entryUUID: cefdc6f6-0c75-103f-8ecb-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921145913Z
+entryCSN: 20240921145913.121544Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921145913Z
+
+dn: ou=Groups,dc=wheels
+objectClass: organizationalUnit
+ou: Groups
+structuralObjectClass: organizationalUnit
+entryUUID: ceff3036-0c75-103f-8ecc-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921145913Z
+entryCSN: 20240921145913.130840Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921145913Z
+
+dn: uid=vagrant,ou=Users,dc=wheels
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+sn: Vagrant
+givenName: User
+cn: Vagrant User
+displayName: Vagrant User
+uidNumber: 1000
+gidNumber: 1000
+userPassword:: e1NTSEF9NXpzWnpWendPTGRoeDFnTDhxdklHMzNtcHRRdU1qQTQ=
+loginShell: /bin/bash
+homeDirectory: /home/vagrant
+structuralObjectClass: inetOrgPerson
+entryUUID: cf00605a-0c75-103f-8ecd-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921145913Z
+uid: vagrant
+entryCSN: 20240921160911.759163Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921160911Z
+
+dn: uid=root,ou=People,dc=wheels
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: root
+sn: Root
+givenName: Super
+cn: Root User
+displayName: Root User
+uidNumber: 0
+gidNumber: 0
+userPassword:: MTIzMzIx
+loginShell: /bin/bash
+homeDirectory: /root
+structuralObjectClass: inetOrgPerson
+entryUUID: cf0195e2-0c75-103f-8ece-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921145913Z
+entryCSN: 20240921145913.146551Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921145913Z
+
+dn: cn=vagrant,ou=Groups,dc=wheels
+objectClass: posixGroup
+cn: vagrant
+gidNumber: 1000
+memberUid: vagrant
+structuralObjectClass: posixGroup
+entryUUID: cf028aa6-0c75-103f-8ecf-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921145913Z
+entryCSN: 20240921145913.152838Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921145913Z
+
+dn: cn=root,ou=Groups,dc=wheels
+objectClass: posixGroup
+cn: root
+gidNumber: 0
+memberUid: root
+structuralObjectClass: posixGroup
+entryUUID: cf03afda-0c75-103f-8ed0-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921145913Z
+entryCSN: 20240921145913.160344Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921145913Z
+
+dn: cn=newgroup33,ou=Groups,dc=wheels
+objectClass: posixGroup
+cn: newgroup33
+gidNumber: 10000
+description: Group account
+structuralObjectClass: posixGroup
+entryUUID: 13670a78-0c7b-103f-8ed1-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921153655Z
+entryCSN: 20240921153655.380187Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921153655Z
+
+dn: ou=Users,dc=wheels
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+structuralObjectClass: organizationalUnit
+entryUUID: 509ea382-0c7c-103f-8ed2-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921154547Z
+entryCSN: 20240921154547.582228Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921154547Z
+
+dn: ou=Machines,dc=wheels
+objectClass: top
+objectClass: organizationalUnit
+ou: Machines
+structuralObjectClass: organizationalUnit
+entryUUID: 509f2fbe-0c7c-103f-8ed4-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921154547Z
+entryCSN: 20240921154547.585889Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921154547Z
+
+dn: ou=Idmap,dc=wheels
+objectClass: organizationalUnit
+ou: Idmap
+structuralObjectClass: organizationalUnit
+entryUUID: 509fdcf2-0c7c-103f-8ed5-478d7a96e7bc
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921154547Z
+entryCSN: 20240921154547.590326Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921154547Z
+
+dn: cn=sysadm,ou=Groups,dc=wheels
+objectClass: top
+objectClass: posixGroup
+cn: sysadm
+gidNumber: 1001
+structuralObjectClass: posixGroup
+entryUUID: 46947054-0c83-103f-81b5-d71a284aa403
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921163537Z
+entryCSN: 20240921163537.215327Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921163537Z
+
+dn: uid=luiggi,ou=Users,dc=wheels
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: luiggi
+cn: Luiggi
+sn: mario
+displayName: Luiggi
+uidNumber: 9897
+gidNumber: 1001
+userPassword:: MTIzMzIx
+loginShell: /bin/bash
+homeDirectory: /home/luiggi
+structuralObjectClass: inetOrgPerson
+entryUUID: 025a90da-0c88-103f-81b6-d71a284aa403
+creatorsName: cn=admin,dc=wheels
+createTimestamp: 20240921170930Z
+entryCSN: 20240921170930.234590Z#000000#000#000000
+modifiersName: cn=admin,dc=wheels
+modifyTimestamp: 20240921170930Z
+
